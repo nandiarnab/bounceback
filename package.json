@@ -1,0 +1,31 @@
+{
+  "name": "bounceback",
+  "version": "1.0.0",
+  "description": "Bounceback Database",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nandiarnab/bounceback.git"
+  },
+  "keywords": [
+    "BounceBack",
+    "Bounceback"
+  ],
+  "author": "Arnab Nandi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nandiarnab/bounceback/issues"
+  },
+  "homepage": "https://github.com/nandiarnab/bounceback#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "pug": "^2.0.3"
+  }
+}
