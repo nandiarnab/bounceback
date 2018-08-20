@@ -22,10 +22,15 @@
   },
   "homepage": "https://github.com/nandiarnab/bounceback#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.2.0",
     "body-parser": "^1.18.3",
+    "bootstrap": "^4.1.3",
     "errorhandler": "^1.5.0",
     "express": "^4.16.3",
+    "jquery": "^3.3.1",
+    "mongoose": "^5.2.9",
     "morgan": "^1.9.0",
+    "popper.js": "^1.14.4",
     "pug": "^2.0.3"
   }
 }
