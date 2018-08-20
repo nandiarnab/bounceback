@@ -1,0 +1,27 @@
+extends ../layout
+
+block content
+  h1 Manage Learners
+  p.lead In this module, you can manage learners - create, find, update and delete
+  hr
+  .row
+    .col-md-6
+      h2 Create
+      p Create new learners.
+      p
+        a.btn.btn-raised(href='/learner/create', role='button') View details »
+    .col-md-6
+      h2 Find
+      p Find learners, and export to spreadsheets
+      p
+        a.btn.btn-raised(href='/learner/find', role='button') View details »
+    .col-md-6
+      h2 Update
+      p Update learner data
+      p
+        a.btn.btn-raised(href='/learner/update', role='button') View details »
+    .col-md-6
+      h2 Delete
+      p Remove learner data
+      p
+        a.btn.btn-raised(href='/learner/delete', role='button') View details »
