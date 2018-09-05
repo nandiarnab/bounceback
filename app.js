@@ -10,7 +10,7 @@ const learnerController = require('./controllers/learner.js')
 const app = express()
 
 app.set('host', '0.0.0.0')
-app.set('port', '3000')
+app.set('port', '8080')
 app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'pug')
 
